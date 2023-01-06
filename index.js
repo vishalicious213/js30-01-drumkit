@@ -1,4 +1,15 @@
 console.log("drum kit")
+const keys = document.querySelectorAll(".key")
+
+function removeTransition(e) {
+    // skip if its not a transform
+    if (e.propertyName !== "transform") return
+    this.classList.remove("playing")
+    // console.log(e)
+    console.log(e.propertyName)
+}
+
+keys.forEach(key => key.addEventListener("transitionend", removeTransition))
 
 document.addEventListener("keydown", (e) => {
     // console.log(e.key)
