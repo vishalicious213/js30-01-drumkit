@@ -19,5 +19,6 @@ From Wes Bos' [JavaScript30](https://javascript30.com/) exercises. Uses the midd
 ## HTML concepts
 
 - data- attributes
+- \<kbd> element
 
 Deployed at: https://vish213-drumkit.netlify.app/
