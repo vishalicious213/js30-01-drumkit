@@ -20,5 +20,6 @@ From Wes Bos' [JavaScript30](https://javascript30.com/) exercises. Uses the midd
 
 - data- attributes
 - \<kbd> element
+- \<audio> element
 
 Deployed at: https://vish213-drumkit.netlify.app/
